@@ -4,12 +4,17 @@ body{
     border: 2px;
     padding: 0px;
     margin: 0px;
-    background-color: rgb(52, 49, 49);
+    background-color: rgb(247, 242, 242);
 }
 
 header{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     gap: 10px;
+    z-index: 1000;
+    width: 100%;
 }
 
 .titulo{
@@ -67,7 +72,7 @@ header{
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
-    color: #FFD700;
+    color: #131312;
     text-align: center;
     margin-bottom: 50px;
     }
@@ -121,7 +126,7 @@ header{
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
-    color: #FFD700;
+    color: #131312;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -164,24 +169,26 @@ footer{
 
 @media (max-width: 768px) {
 
-  header {
+    header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 15px;
-  }
+    gap: 10px;
+}
 
-  .titulo {
-    font-size: 2.3rem;
+    .titulo {
+    font-size: 2rem;
     margin: 0;
-  }
+}
 
-  .lista {
-    flex-direction: column;
-    gap: 15px;
+    .menubar {
+    margin-left: 0;
+}
+
+    .lista {
+    gap: 20px;
     font-size: 1.1rem;
-  }
-
+}
   .imagen-promo {
     height: 220px;
   }
@@ -196,7 +203,7 @@ footer{
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-    color: #FFD700;
+    color: #131312;
     text-align: center;
     margin-bottom: 50px;
     }
