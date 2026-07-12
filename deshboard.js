@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:8080/productos';
+const apiUrl = 'https://backend-web-ecommerse-talentotech.onrender.com/productos';
 let productosCache = [];
 
 
